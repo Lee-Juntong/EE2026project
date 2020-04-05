@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Apr  4 19:45:16 2020
+# Process ID: 22848
+# Current directory: D:/NUS/EE2026/EE2026_project/SoundDisplay
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36632 D:\NUS\EE2026\EE2026_project\SoundDisplay\SoundDisplay.xpr
+# Log file: D:/NUS/EE2026/EE2026_project/SoundDisplay/vivado.log
+# Journal file: D:/NUS/EE2026/EE2026_project/SoundDisplay\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.xpr
+INFO: [Project 1-313] Project file moved from 'D:/NUS/EE2026/SoundDisplay' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/XILINX/Vivado/2018.2/data/ip'.
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 19:45:41 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 19:54:03 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  4 19:57:15 2020...

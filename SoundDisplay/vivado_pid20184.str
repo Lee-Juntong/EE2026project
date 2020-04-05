@@ -1,0 +1,104 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 20184
+License: Customer
+
+Current time: 	Sun Apr 05 20:58:21 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 14 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/XILINX/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/XILINX/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	23102
+User home directory: C:/Users/23102
+User working directory: D:/NUS/EE2026/EE2026_project/SoundDisplay
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/XILINX/Vivado
+HDI_APPROOT: D:/XILINX/Vivado/2018.2
+RDI_DATADIR: D:/XILINX/Vivado/2018.2/data
+RDI_BINDIR: D:/XILINX/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/23102/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/23102/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/23102/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/XILINX/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/NUS/EE2026/EE2026_project/SoundDisplay/vivado.log
+Vivado journal file location: 	D:/NUS/EE2026/EE2026_project/SoundDisplay/vivado.jou
+Engine tmp dir: 	D:/NUS/EE2026/EE2026_project/SoundDisplay/.Xil/Vivado-20184-DESKTOP-5E95DDI
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/XILINX/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/XILINX/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/XILINX/Vivado/2018.2
+XILINX_SDK: D:/XILINX/SDK/2018.2
+XILINX_VIVADO: D:/XILINX/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/XILINX/Vivado/2018.2
+
+
+GUI allocated memory:	286 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 630 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: D:\NUS\EE2026\EE2026_project\SoundDisplay\SoundDisplay.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+// [GUI Memory]: 68 MB (+69173kb) [00:00:04]
+// [Engine Memory]: 500 MB (+372484kb) [00:00:04]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/XILINX/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 74 MB (+2351kb) [00:00:06]
+// [Engine Memory]: 579 MB (+57371kb) [00:00:06]
+// [GUI Memory]: 89 MB (+11637kb) [00:00:07]
+// [Engine Memory]: 616 MB (+8327kb) [00:00:07]
+// HMemoryUtils.trashcanNow. Engine heap size: 632 MB. GUI used memory: 43 MB. Current time: 4/5/20 8:58:21 PM CST
+// Project name: SoundDisplay; location: D:/NUS/EE2026/EE2026_project/SoundDisplay; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// PAPropertyPanels.initPanels (Top_Student.v) elapsed time: 0.2s
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v), CLK1 : clk20k (clk20k.v)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("Top_Student.v", 333, 238); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED

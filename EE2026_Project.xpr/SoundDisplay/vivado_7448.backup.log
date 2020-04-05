@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Mar 21 23:44:37 2020
+# Process ID: 7448
+# Current directory: C:/Users/Zhu Zikun/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16488
+# Log file: C:/Users/Zhu Zikun/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Zhu Zikun/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Zhu Zikun/Desktop/123/SoundDisplay/SoundDisplay.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 906.719 ; gain = 161.469
+update_compile_order -fileset sources_1
+archive_project {C:/Users/Zhu Zikun/Desktop/EE2026_Project.xpr.zip} -temp_dir {C:/Users/Zhu Zikun/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-7448-Zikuns-Lenovo-Laptop} -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Zhu Zikun/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-7448-Zikuns-Lenovo-Laptop' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/Zhu Zikun/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-7448-Zikuns-Lenovo-Laptop/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

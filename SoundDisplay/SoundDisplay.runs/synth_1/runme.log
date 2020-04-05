@@ -1,0 +1,1118 @@
+
+*** Running vivado
+    with args -log Top_Student.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Student.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Top_Student.tcl -notrace
+Command: synth_design -top Top_Student -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15284 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 357.102 ; gain = 100.477
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top_Student' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Top_Student.v:18]
+INFO: [Synth 8-6157] synthesizing module 'clk20k' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/clk20k.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk20k' (1#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/clk20k.v:23]
+INFO: [Synth 8-6157] synthesizing module 'slowClk' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/clk6p25m.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'slowClk' (2#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/clk6p25m.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Button' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Button.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DFF' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/DFF.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DFF' (3#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/DFF.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Button' (4#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Button.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Max_Intensity' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Max_Intensity.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Max_Intensity' (5#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Max_Intensity.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Led_Bar' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Led_Bar.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Led_Bar' (6#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Led_Bar.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Segment_Display' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Segment_Display.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Segment_Display' (7#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Segment_Display.v:23]
+INFO: [Synth 8-6157] synthesizing module 'My_Volume_Bar' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/My_Volume_Bar.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'My_Volume_Bar' (8#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/My_Volume_Bar.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Circle_And_Mr_XiaoChuan' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Circle.v:23]
+INFO: [Synth 8-3876] $readmem data file 'XC.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Circle.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'Circle_And_Mr_XiaoChuan' (9#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Circle.v:23]
+INFO: [Synth 8-6157] synthesizing module 'NTU' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/NTU.v:23]
+INFO: [Synth 8-3876] $readmem data file 'NotDone.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/NTU.v:52]
+INFO: [Synth 8-3876] $readmem data file 'Done.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/NTU.v:53]
+INFO: [Synth 8-3876] $readmem data file 'shoutPlz.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/NTU.v:54]
+INFO: [Synth 8-3876] $readmem data file 'shoutDone.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/NTU.v:55]
+INFO: [Synth 8-3876] $readmem data file 'quietPlz.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/NTU.v:56]
+INFO: [Synth 8-3876] $readmem data file 'quietDone.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/NTU.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'NTU' (10#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/NTU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EyeSight_test' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:23]
+INFO: [Synth 8-3876] $readmem data file 'A_DOWN.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:77]
+INFO: [Synth 8-3876] $readmem data file 'A_UP.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:78]
+INFO: [Synth 8-3876] $readmem data file 'A_LEFT.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:79]
+INFO: [Synth 8-3876] $readmem data file 'A_RIGHT.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:80]
+INFO: [Synth 8-3876] $readmem data file 'B_DOWN.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:81]
+INFO: [Synth 8-3876] $readmem data file 'B_UP.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:82]
+INFO: [Synth 8-3876] $readmem data file 'B_LEFT.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:83]
+INFO: [Synth 8-3876] $readmem data file 'B_RIGHT.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:84]
+INFO: [Synth 8-3876] $readmem data file 'C_DOWN.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:85]
+INFO: [Synth 8-3876] $readmem data file 'C_UP.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:86]
+INFO: [Synth 8-3876] $readmem data file 'C_LEFT.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:87]
+INFO: [Synth 8-3876] $readmem data file 'C_RIGHT.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:88]
+INFO: [Synth 8-3876] $readmem data file 'D_DOWN.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:89]
+INFO: [Synth 8-3876] $readmem data file 'D_UP.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:90]
+INFO: [Synth 8-3876] $readmem data file 'D_LEFT.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:91]
+INFO: [Synth 8-3876] $readmem data file 'D_RIGHT.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:92]
+INFO: [Synth 8-3876] $readmem data file 'E_DOWN.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:93]
+INFO: [Synth 8-3876] $readmem data file 'E_UP.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:94]
+INFO: [Synth 8-3876] $readmem data file 'E_LEFT.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:95]
+INFO: [Synth 8-3876] $readmem data file 'E_RIGHT.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:96]
+INFO: [Synth 8-3876] $readmem data file 'S_DOWN.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:97]
+INFO: [Synth 8-3876] $readmem data file 'S_UP.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:98]
+INFO: [Synth 8-3876] $readmem data file 'S_LEFT.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:99]
+INFO: [Synth 8-3876] $readmem data file 'S_RIGHT.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:100]
+INFO: [Synth 8-3876] $readmem data file 'picA.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:101]
+INFO: [Synth 8-3876] $readmem data file 'picB.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:102]
+INFO: [Synth 8-3876] $readmem data file 'picC.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:103]
+INFO: [Synth 8-3876] $readmem data file 'picD.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:104]
+INFO: [Synth 8-3876] $readmem data file 'picE.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:105]
+INFO: [Synth 8-3876] $readmem data file 'picS.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:106]
+INFO: [Synth 8-3876] $readmem data file 'picU.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:107]
+INFO: [Synth 8-6157] synthesizing module 'Random_Num_Gen' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Random_Num_Gen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Random_Num_Gen' (11#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Random_Num_Gen.v:23]
+WARNING: [Synth 8-6090] variable 'isFinished' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:206]
+INFO: [Synth 8-6155] done synthesizing module 'EyeSight_test' (12#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Dr_W_And_C' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:23]
+INFO: [Synth 8-3876] $readmem data file 'Wong.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:58]
+INFO: [Synth 8-3876] $readmem data file 'Chua.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:59]
+INFO: [Synth 8-3876] $readmem data file 'NUS.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:60]
+INFO: [Synth 8-3876] $readmem data file 'qn.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:61]
+INFO: [Synth 8-6157] synthesizing module 'pwd_to_seg' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/pwd_to_seg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pwd_to_seg' (13#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/pwd_to_seg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'name_seg' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/name_seg.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/name_seg.v:43]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/name_seg.v:126]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/name_seg.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'name_seg' (14#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/name_seg.v:23]
+WARNING: [Synth 8-6090] variable 'resetflag' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:91]
+WARNING: [Synth 8-6090] variable 'dp' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:190]
+WARNING: [Synth 8-6090] variable 'dp' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:191]
+WARNING: [Synth 8-6090] variable 'dp' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:192]
+WARNING: [Synth 8-6090] variable 'dp' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:193]
+WARNING: [Synth 8-6090] variable 'dp' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:202]
+WARNING: [Synth 8-6090] variable 'dp' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:203]
+WARNING: [Synth 8-6090] variable 'dp' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:204]
+WARNING: [Synth 8-6090] variable 'dp' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:205]
+INFO: [Synth 8-6155] done synthesizing module 'Dr_W_And_C' (15#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:23]
+INFO: [Synth 8-6157] synthesizing module 'spongeBOB' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/spongeBOB.v:23]
+INFO: [Synth 8-3876] $readmem data file 'spongeBOB1.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/spongeBOB.v:38]
+INFO: [Synth 8-3876] $readmem data file 'spongeBOB2.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/spongeBOB.v:39]
+INFO: [Synth 8-3876] $readmem data file 'spongeBOB3.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/spongeBOB.v:40]
+INFO: [Synth 8-3876] $readmem data file 'spongeBOB4.mem' is read successfully [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/spongeBOB.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'spongeBOB' (16#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/spongeBOB.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Audio_Capture' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Audio_Capture.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'Audio_Capture' (17#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Audio_Capture.v:25]
+INFO: [Synth 8-6157] synthesizing module 'Oled_Display' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:36]
+	Parameter Width bound to: 96 - type: integer 
+	Parameter Height bound to: 64 - type: integer 
+	Parameter PixelCount bound to: 6144 - type: integer 
+	Parameter PixelCountWidth bound to: 13 - type: integer 
+	Parameter ClkFreq bound to: 6250000 - type: integer 
+	Parameter FrameFreq bound to: 60 - type: integer 
+	Parameter FrameDiv bound to: 104166 - type: integer 
+	Parameter FrameDivWidth bound to: 17 - type: integer 
+	Parameter PowerDelay bound to: 20 - type: integer 
+	Parameter ResetDelay bound to: 3 - type: integer 
+	Parameter VccEnDelay bound to: 20 - type: integer 
+	Parameter StartupCompleteDelay bound to: 100 - type: integer 
+	Parameter MaxDelay bound to: 100 - type: integer 
+	Parameter MaxDelayCount bound to: 625000 - type: integer 
+	Parameter StateCount bound to: 32 - type: integer 
+	Parameter StateWidth bound to: 5 - type: integer 
+	Parameter PowerUp bound to: 5'b00000 
+	Parameter Reset bound to: 5'b00001 
+	Parameter ReleaseReset bound to: 5'b00011 
+	Parameter EnableDriver bound to: 5'b00010 
+	Parameter DisplayOff bound to: 5'b00110 
+	Parameter SetRemapDisplayFormat bound to: 5'b00111 
+	Parameter SetStartLine bound to: 5'b00101 
+	Parameter SetOffset bound to: 5'b00100 
+	Parameter SetNormalDisplay bound to: 5'b01100 
+	Parameter SetMultiplexRatio bound to: 5'b01101 
+	Parameter SetMasterConfiguration bound to: 5'b01111 
+	Parameter DisablePowerSave bound to: 5'b01110 
+	Parameter SetPhaseAdjust bound to: 5'b01010 
+	Parameter SetDisplayClock bound to: 5'b01011 
+	Parameter SetSecondPrechargeA bound to: 5'b01001 
+	Parameter SetSecondPrechargeB bound to: 5'b01000 
+	Parameter SetSecondPrechargeC bound to: 5'b11000 
+	Parameter SetPrechargeLevel bound to: 5'b11001 
+	Parameter SetVCOMH bound to: 5'b11011 
+	Parameter SetMasterCurrent bound to: 5'b11010 
+	Parameter SetContrastA bound to: 5'b11110 
+	Parameter SetContrastB bound to: 5'b11111 
+	Parameter SetContrastC bound to: 5'b11101 
+	Parameter DisableScrolling bound to: 5'b11100 
+	Parameter ClearScreen bound to: 5'b10100 
+	Parameter VccEn bound to: 5'b10101 
+	Parameter DisplayOn bound to: 5'b10111 
+	Parameter PrepareNextFrame bound to: 5'b10110 
+	Parameter SetColAddress bound to: 5'b10010 
+	Parameter SetRowAddress bound to: 5'b10011 
+	Parameter WaitNextFrame bound to: 5'b10001 
+	Parameter SendPixel bound to: 5'b10000 
+	Parameter SpiCommandMaxWidth bound to: 40 - type: integer 
+	Parameter SpiCommandBitCountWidth bound to: 6 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:124]
+INFO: [Synth 8-226] default block is never used [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:201]
+WARNING: [Synth 8-693] zero replication count - replication ignored [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:349]
+INFO: [Synth 8-6155] done synthesizing module 'Oled_Display' (18#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'Top_Student' (19#1) [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Top_Student.v:18]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 635.008 ; gain = 378.383
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 635.008 ; gain = 378.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 635.008 ; gain = 378.383
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
+Finished Parsing XDC File [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_Student_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_Student_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 929.758 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 929.758 ; gain = 673.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 929.758 ; gain = 673.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 929.758 ; gain = 673.133
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "NEWCLOCK" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "pixel_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pixel_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Circle.v:65]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Circle.v:65]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Circle.v:54]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Circle.v:54]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Circle.v:54]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Circle.v:54]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Circle.v:54]
+INFO: [Synth 8-5544] ROM "COUNT0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:162]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:171]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:180]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:189]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:198]
+INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pwd0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pixel_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "an" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'pwd_flag_reg' in module 'Dr_W_And_C'
+INFO: [Synth 8-802] inferred FSM for state register 'name_flag_reg' in module 'Dr_W_And_C'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Oled_Display'
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "fsm_next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'an_reg' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Segment_Display.v:31]
+WARNING: [Synth 8-327] inferring latch for variable 'seg_reg' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Segment_Display.v:31]
+WARNING: [Synth 8-327] inferring latch for variable 'num_in' [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/EyeSight_test.v:130]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 |                               00
+                 iSTATE0 |                               01 |                               01
+                 iSTATE1 |                               10 |                               10
+                 iSTATE2 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'pwd_flag_reg' using encoding 'sequential' in module 'Dr_W_And_C'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 |                               00
+                 iSTATE0 |                               01 |                               01
+                 iSTATE1 |                               10 |                               10
+                 iSTATE2 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'name_flag_reg' using encoding 'sequential' in module 'Dr_W_And_C'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 PowerUp | 00000000100000000000000000000000 |                            00000
+                   Reset | 00000000000100000000000000000000 |                            00001
+            ReleaseReset | 00000000000000000000100000000000 |                            00011
+            EnableDriver | 00000000000000000001000000000000 |                            00010
+              DisplayOff | 00000000000000000100000000000000 |                            00110
+   SetRemapDisplayFormat | 00000100000000000000000000000000 |                            00111
+            SetStartLine | 00001000000000000000000000000000 |                            00101
+               SetOffset | 10000000000000000000000000000000 |                            00100
+        SetNormalDisplay | 00000000000000000000000010000000 |                            01100
+       SetMultiplexRatio | 00000000000000000000000000100000 |                            01101
+  SetMasterConfiguration | 00000000000000000000000001000000 |                            01111
+        DisablePowerSave | 00000000000000000000000000000100 |                            01110
+          SetPhaseAdjust | 00000000000000000000000000001000 |                            01010
+         SetDisplayClock | 00000000001000000000000000000000 |                            01011
+     SetSecondPrechargeA | 00000000010000000000000000000000 |                            01001
+     SetSecondPrechargeB | 01000000000000000000000000000000 |                            01000
+     SetSecondPrechargeC | 00000010000000000000000000000000 |                            11000
+       SetPrechargeLevel | 00000001000000000000000000000000 |                            11001
+                SetVCOMH | 00000000000000010000000000000000 |                            11011
+        SetMasterCurrent | 00000000000000100000000000000000 |                            11010
+            SetContrastA | 00000000000001000000000000000000 |                            11110
+            SetContrastB | 00100000000000000000000000000000 |                            11111
+            SetContrastC | 00000000000000000000000000000001 |                            11101
+        DisableScrolling | 00000000000000000000000000000010 |                            11100
+             ClearScreen | 00000000000000000000000000010000 |                            10100
+                   VccEn | 00010000000000000000000000000000 |                            10101
+               DisplayOn | 00000000000010000000000000000000 |                            10111
+        PrepareNextFrame | 00000000000000001000000000000000 |                            10110
+           SetColAddress | 00000000000000000000010000000000 |                            10010
+           SetRowAddress | 00000000000000000000000100000000 |                            10011
+           WaitNextFrame | 00000000000000000000001000000000 |                            10001
+               SendPixel | 00000000000000000010000000000000 |                            10000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Oled_Display'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1121.668 ; gain = 865.043
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------+------------+----------+
+|      |RTL Partition      |Replication |Instances |
++------+-------------------+------------+----------+
+|1     |EyeSight_test__GB0 |           1|     27975|
+|2     |EyeSight_test__GB1 |           1|      7448|
+|3     |Top_Student__GCB0  |           1|     21640|
+|4     |Top_Student__GCB1  |           1|     16609|
+|5     |Top_Student__GCB2  |           1|     28505|
++------+-------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 5     
+	   2 Input      8 Bit       Adders := 2     
+	   3 Input      8 Bit       Adders := 5     
+	   3 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 9     
+	  15 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 3     
+	   8 Input      2 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 5     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 6     
+	               12 Bit    Registers := 5     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 6     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 8     
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 51    
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 75    
+	   7 Input     16 Bit        Muxes := 1     
+	   8 Input     16 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 10    
+	   3 Input     16 Bit        Muxes := 1     
+	  17 Input     16 Bit        Muxes := 1     
+	   3 Input     15 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 6     
+	   8 Input      7 Bit        Muxes := 1     
+	  16 Input      7 Bit        Muxes := 5     
+	   2 Input      7 Bit        Muxes := 10    
+	   4 Input      7 Bit        Muxes := 2     
+	   3 Input      7 Bit        Muxes := 1     
+	   6 Input      7 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 52    
+	   3 Input      4 Bit        Muxes := 2     
+	  14 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 14    
+	   2 Input      3 Bit        Muxes := 31    
+	   4 Input      3 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 12    
+	   4 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 115   
+	   8 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 18    
+	   7 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 5     
+	  14 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Top_Student 
+Detailed RTL Component Info : 
++---Adders : 
+	  15 Input      4 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module DFF__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__9 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__8 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__11 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__10 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Random_Num_Gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   8 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module DFF__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__12 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module EyeSight_test 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   7 Input     16 Bit        Muxes := 1     
+	   8 Input     16 Bit        Muxes := 1     
+	   8 Input      7 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 27    
+	   4 Input      3 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 7     
+	   7 Input      1 Bit        Muxes := 1     
+Module My_Volume_Bar 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 63    
+	   4 Input     16 Bit        Muxes := 9     
+	   3 Input     16 Bit        Muxes := 1     
+	   3 Input     15 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 16    
+	   2 Input      1 Bit        Muxes := 72    
+	   4 Input      1 Bit        Muxes := 9     
+Module Circle_And_Mr_XiaoChuan 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 5     
+	   3 Input      7 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 3     
+Module DFF__17 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__16 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__19 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__18 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__21 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__20 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__23 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__22 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__25 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__24 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__13 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__26 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__15 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__14 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module name_seg 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	  16 Input      7 Bit        Muxes := 4     
+	   3 Input      4 Bit        Muxes := 1     
+	  14 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 1     
+Module Dr_W_And_C 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 8     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 5     
+	   4 Input      7 Bit        Muxes := 2     
+	   3 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 14    
+	   2 Input      4 Bit        Muxes := 33    
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 6     
+	   4 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 18    
+	   3 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 2     
+Module spongeBOB 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 9     
+Module Segment_Display 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 3     
+	  16 Input      7 Bit        Muxes := 1     
+	   6 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+Module Led_Bar 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input     16 Bit        Muxes := 1     
+Module Max_Intensity 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+Module DFF__29 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__28 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module NTU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 5     
+	   2 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 6     
+Module DFF__31 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__30 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__33 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__32 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Audio_Capture 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
+Module Oled_Display 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module DFF__35 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__34 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF__27 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFF 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clk20k 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP dist_sqr0, operation Mode is: A*B.
+DSP Report: operator dist_sqr0 is absorbed into DSP dist_sqr0.
+DSP Report: Generating DSP dist_sqr, operation Mode is: C+A*B.
+DSP Report: operator dist_sqr is absorbed into DSP dist_sqr.
+DSP Report: operator dist_sqr0 is absorbed into DSP dist_sqr.
+INFO: [Synth 8-5546] ROM "OLED/fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "OLED/fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "CLK1/NEWCLOCK" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ESTi_4/\fake_mode_reg[3] )
+INFO: [Synth 8-3886] merging instance 'i_0/vb/pixel_data_reg[11]' (FDE) to 'i_0/vb/pixel_data_reg[12]'
+INFO: [Synth 8-3886] merging instance 'i_0/vb/pixel_data_reg[13]' (FDE) to 'i_0/vb/pixel_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_1/sd1/an_reg[2]' (LDP) to 'i_1/sd1/an_reg[3]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\sd1/an_reg[3] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:07:07 ; elapsed = 00:07:11 . Memory (MB): peak = 1979.355 ; gain = 1722.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------------------+------------+---------------+----------------+
+|Module Name             | RTL Object | Depth x Width | Implemented As | 
++------------------------+------------+---------------+----------------+
+|Circle_And_Mr_XiaoChuan | p_0_out    | 8192x16       | LUT            | 
+|NTU                     | p_0_out    | 8192x16       | LUT            | 
+|NTU                     | p_0_out    | 8192x16       | LUT            | 
+|NTU                     | p_0_out    | 8192x16       | LUT            | 
+|NTU                     | p_0_out    | 8192x16       | LUT            | 
+|NTU                     | p_0_out    | 8192x16       | LUT            | 
+|NTU                     | p_0_out    | 8192x16       | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x16       | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x16       | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x16       | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x16       | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x16       | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x16       | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x16       | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|EyeSight_test           | p_0_out    | 8192x1        | LUT            | 
+|Dr_W_And_C              | p_0_out    | 8192x1        | LUT            | 
+|Dr_W_And_C              | p_0_out    | 8192x16       | LUT            | 
+|Dr_W_And_C              | p_0_out    | 8192x16       | LUT            | 
+|Dr_W_And_C              | p_0_out    | 8192x16       | LUT            | 
+|spongeBOB               | p_0_out    | 8192x16       | LUT            | 
+|spongeBOB               | p_0_out    | 8192x16       | LUT            | 
+|spongeBOB               | p_0_out    | 8192x16       | LUT            | 
+|spongeBOB               | p_0_out    | 8192x16       | LUT            | 
+|Top_Student             | p_0_out    | 8192x16       | LUT            | 
+|Top_Student             | p_0_out    | 8192x16       | LUT            | 
+|Top_Student             | p_0_out    | 8192x16       | LUT            | 
+|Top_Student             | p_0_out    | 8192x16       | LUT            | 
+|Top_Student             | p_0_out    | 8192x16       | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x1        | LUT            | 
+|Top_Student             | p_0_out    | 8192x16       | LUT            | 
+|Circle_And_Mr_XiaoChuan | p_0_out    | 8192x16       | LUT            | 
+|Dr_W_And_C              | p_0_out    | 8192x1        | LUT            | 
+|Dr_W_And_C              | p_0_out    | 8192x16       | LUT            | 
+|Dr_W_And_C              | p_0_out    | 8192x16       | LUT            | 
+|Dr_W_And_C              | p_0_out    | 8192x16       | LUT            | 
+|spongeBOB               | p_0_out    | 8192x16       | LUT            | 
+|spongeBOB               | p_0_out    | 8192x16       | LUT            | 
+|spongeBOB               | p_0_out    | 8192x16       | LUT            | 
+|spongeBOB               | p_0_out    | 8192x16       | LUT            | 
+|NTU                     | p_0_out    | 8192x16       | LUT            | 
+|NTU                     | p_0_out    | 8192x16       | LUT            | 
+|NTU                     | p_0_out    | 8192x16       | LUT            | 
+|NTU                     | p_0_out    | 8192x16       | LUT            | 
+|NTU                     | p_0_out    | 8192x16       | LUT            | 
++------------------------+------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping  Report (see note below)
++------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name             | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Circle_And_Mr_XiaoChuan | A*B         | 12     | 12     | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Circle_And_Mr_XiaoChuan | C+A*B       | 12     | 12     | 12     | -      | 12     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------+------------+----------+
+|      |RTL Partition      |Replication |Instances |
++------+-------------------+------------+----------+
+|1     |EyeSight_test__GB0 |           1|      6948|
+|2     |EyeSight_test__GB1 |           1|      1863|
+|3     |Top_Student__GCB0  |           1|     16322|
+|4     |Top_Student__GCB1  |           1|     12102|
+|5     |Top_Student__GCB2  |           1|      6511|
++------+-------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:07:17 ; elapsed = 00:07:23 . Memory (MB): peak = 1979.355 ; gain = 1722.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:07:22 ; elapsed = 00:07:28 . Memory (MB): peak = 1979.355 ; gain = 1722.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------+------------+----------+
+|      |RTL Partition      |Replication |Instances |
++------+-------------------+------------+----------+
+|1     |EyeSight_test__GB0 |           1|      6948|
+|2     |EyeSight_test__GB1 |           1|      1863|
+|3     |Top_Student__GCB0  |           1|     16322|
+|4     |Top_Student__GCB1  |           1|     12102|
+|5     |Top_Student__GCB2  |           1|      6524|
++------+-------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'CSEE/singlePulseButton5/dut1/Q_reg' (FD) to 'EST/singlePulseButton5/dut1/Q_reg'
+INFO: [Synth 8-3886] merging instance 'CSEE/singlePulseButton5/dut2/Q_reg' (FD) to 'EST/singlePulseButton5/dut2/Q_reg'
+INFO: [Synth 8-3886] merging instance 'CSEE/singlePulseButton4/dut1/Q_reg' (FD) to 'EST/singlePulseButton4/dut1/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EST/singlePulseButton2/dut1/Q_reg' (FD) to 'CSEE/singlePulseButton2/dut1/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EST/singlePulseButton3/dut1/Q_reg' (FD) to 'CSEE/singlePulseButton3/dut1/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EST/singlePulseButton4/dut2/Q_reg' (FD) to 'CSEE/singlePulseButton4/dut2/Q_reg'
+INFO: [Synth 8-3886] merging instance 'CSEE/singlePulseButton2/dut2/Q_reg' (FD) to 'EST/singlePulseButton2/dut2/Q_reg'
+INFO: [Synth 8-3886] merging instance 'CSEE/singlePulseButton3/dut2/Q_reg' (FD) to 'EST/singlePulseButton3/dut2/Q_reg'
+INFO: [Synth 8-3886] merging instance 'CSEE/singlePulseButton1/dut1/Q_reg' (FD) to 'EST/singlePulseButton1/dut1/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EST/singlePulseButton1/dut2/Q_reg' (FD) to 'CSEE/singlePulseButton1/dut2/Q_reg'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:07:28 ; elapsed = 00:07:34 . Memory (MB): peak = 1979.355 ; gain = 1722.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:07:30 ; elapsed = 00:07:35 . Memory (MB): peak = 1979.355 ; gain = 1722.730
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:07:30 ; elapsed = 00:07:36 . Memory (MB): peak = 1979.355 ; gain = 1722.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:31 ; elapsed = 00:07:36 . Memory (MB): peak = 1979.355 ; gain = 1722.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:07:31 ; elapsed = 00:07:37 . Memory (MB): peak = 1979.355 ; gain = 1722.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:07:34 ; elapsed = 00:07:40 . Memory (MB): peak = 1979.355 ; gain = 1722.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:07:34 ; elapsed = 00:07:40 . Memory (MB): peak = 1979.355 ; gain = 1722.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     4|
+|2     |CARRY4    |    84|
+|3     |DSP48E1   |     1|
+|4     |DSP48E1_1 |     1|
+|5     |LUT1      |    40|
+|6     |LUT2      |   319|
+|7     |LUT3      |   400|
+|8     |LUT4      |   589|
+|9     |LUT5      |  2228|
+|10    |LUT6      | 15337|
+|11    |MUXF7     |  5641|
+|12    |MUXF8     |  2439|
+|13    |FDE_1     |    32|
+|14    |FDRE      |   419|
+|15    |FDSE      |    39|
+|16    |LD        |     2|
+|17    |LDC       |     7|
+|18    |LDP       |     2|
+|19    |IBUF      |    20|
+|20    |OBUF      |    37|
++------+----------+------+
+
+Report Instance Areas: 
++------+-----------------------+------------------------+------+
+|      |Instance               |Module                  |Cells |
++------+-----------------------+------------------------+------+
+|1     |top                    |                        | 27641|
+|2     |  CLK2                 |slowClk                 |    34|
+|3     |  CLK1                 |clk20k                  |    23|
+|4     |  CSEE                 |Dr_W_And_C              |  1729|
+|5     |    ns                 |name_seg                |    86|
+|6     |      db               |Button_38               |     4|
+|7     |        dut1           |DFF_39                  |     2|
+|8     |        dut2           |DFF_40                  |     2|
+|9     |    singlePulseButton1 |Button_27               |     1|
+|10    |      dut2             |DFF_37                  |     1|
+|11    |    singlePulseButton2 |Button_28               |    28|
+|12    |      dut1             |DFF_36                  |    28|
+|13    |    singlePulseButton3 |Button_29               |    32|
+|14    |      dut1             |DFF_35                  |    32|
+|15    |    singlePulseButton4 |Button_30               |     1|
+|16    |      dut2             |DFF_34                  |     1|
+|17    |    singlePulseCLK1    |Button_31               |    55|
+|18    |      dut1             |DFF_32                  |    53|
+|19    |      dut2             |DFF_33                  |     2|
+|20    |  DISPLAY_AND_AUDIO    |Audio_Capture           |    93|
+|21    |  EST                  |EyeSight_test           |   147|
+|22    |    db                 |Button_13               |     3|
+|23    |      dut1             |DFF_25                  |     1|
+|24    |      dut2             |DFF_26                  |     2|
+|25    |    rng                |Random_Num_Gen          |    24|
+|26    |    singlePulseButton1 |Button_14               |     4|
+|27    |      dut1             |DFF_24                  |     4|
+|28    |    singlePulseButton2 |Button_15               |     3|
+|29    |      dut2             |DFF_23                  |     3|
+|30    |    singlePulseButton3 |Button_16               |     4|
+|31    |      dut2             |DFF_22                  |     4|
+|32    |    singlePulseButton4 |Button_17               |     2|
+|33    |      dut1             |DFF_21                  |     2|
+|34    |    singlePulseButton5 |Button_18               |    10|
+|35    |      dut1             |DFF_19                  |     8|
+|36    |      dut2             |DFF_20                  |     2|
+|37    |  OLED                 |Oled_Display            | 22728|
+|38    |  button1              |Button                  |     3|
+|39    |    dut1               |DFF_11                  |     2|
+|40    |    dut2               |DFF_12                  |     1|
+|41    |  button2              |Button_0                |     3|
+|42    |    dut1               |DFF_9                   |     2|
+|43    |    dut2               |DFF_10                  |     1|
+|44    |  button3              |Button_1                |     3|
+|45    |    dut1               |DFF_7                   |     2|
+|46    |    dut2               |DFF_8                   |     1|
+|47    |  button4              |Button_2                |     3|
+|48    |    dut1               |DFF_5                   |     2|
+|49    |    dut2               |DFF_6                   |     1|
+|50    |  button5              |Button_3                |     3|
+|51    |    dut1               |DFF                     |     2|
+|52    |    dut2               |DFF_4                   |     1|
+|53    |  mi1                  |Max_Intensity           |   175|
+|54    |  nus                  |NTU                     |  2299|
+|55    |  sb                   |spongeBOB               |    60|
+|56    |  sd1                  |Segment_Display         |    13|
+|57    |  sw7out               |Circle_And_Mr_XiaoChuan |   142|
+|58    |  vb                   |My_Volume_Bar           |   108|
++------+-----------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:07:34 ; elapsed = 00:07:40 . Memory (MB): peak = 1979.355 ; gain = 1722.730
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:07:24 ; elapsed = 00:07:33 . Memory (MB): peak = 1979.355 ; gain = 1427.980
+Synthesis Optimization Complete : Time (s): cpu = 00:07:35 ; elapsed = 00:07:40 . Memory (MB): peak = 1979.355 ; gain = 1722.730
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8229 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Top_Student' is not ideal for floorplanning, since the cellview 'Oled_Display' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 43 instances were transformed.
+  FDE_1 => FDRE (inverted pins: C): 32 instances
+  LD => LDCE: 2 instances
+  LDC => LDCE: 7 instances
+  LDP => LDPE: 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+149 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:07:46 ; elapsed = 00:07:52 . Memory (MB): peak = 1979.355 ; gain = 1735.566
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/Top_Student.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_Student_utilization_synth.rpt -pb Top_Student_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.119 . Memory (MB): peak = 1979.355 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Apr  5 04:01:38 2020...

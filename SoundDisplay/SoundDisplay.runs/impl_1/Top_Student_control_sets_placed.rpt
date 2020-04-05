@@ -1,0 +1,103 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Apr  5 04:05:37 2020
+| Host         : DESKTOP-5E95DDI running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Student_control_sets_placed.rpt
+| Design       : Top_Student
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    35 |
+| Unused register locations in slices containing registers |    78 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            2 |
+|      4 |            3 |
+|      8 |            5 |
+|     14 |            2 |
+|    16+ |           23 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             322 |           81 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             234 |           47 |
+| Yes          | No                    | No                     |             290 |           60 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             156 |           42 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------+--------------------------------------------+----------------------------------+------------------+----------------+
+|             Clock Signal            |                Enable Signal               |         Set/Reset Signal         | Slice Load Count | Bel Load Count |
++-------------------------------------+--------------------------------------------+----------------------------------+------------------+----------------+
+|  mi1/seg[1][0]                      |                                            | sd1/seg_reg[1]_i_3_n_0           |                1 |              2 |
+| ~ANOTHERCLOCK_BUFG                  |                                            |                                  |                1 |              2 |
+|  sd1/seg_reg[6]_i_2_n_0             |                                            | mi1/seg[2][0]                    |                1 |              4 |
+|  mi1/E[0]                           |                                            | mi1/AR[0]                        |                1 |              4 |
+|  EST/db/dut2/E[0]                   |                                            |                                  |                1 |              4 |
+|  ANOTHERCLOCK_BUFG                  | OLED/pixel_data_reg[15]_0                  | OLED/pixel_data_reg[10]_0        |                1 |              8 |
+|  clk3125_BUFG                       | CSEE/singlePulseCLK1/dut2/E[0]             | CSEE/an_reg[3]_0                 |                1 |              8 |
+|  clk3125_BUFG                       | CSEE/singlePulseCLK1/dut1/name_flag_reg[0] |                                  |                2 |              8 |
+|  clk3125_BUFG                       | CSEE/ns/db/dut1/E[0]                       | button1/dut1/SR[0]               |                2 |              8 |
+|  sd1/seg_reg[5]_i_2_n_0             |                                            | sd1/seg_reg[5]_i_3_n_0           |                1 |              8 |
+|  clk3125_BUFG                       |                                            | EST/p_0_out                      |                2 |             14 |
+|  clk3125_BUFG                       | CSEE/singlePulseCLK1/dut2/E[0]             |                                  |                3 |             14 |
+|  ANOTHERCLOCK_BUFG                  |                                            |                                  |                8 |             18 |
+|  ANOTHERCLOCK_BUFG                  | OLED/pixel_data_reg[15]_0                  |                                  |                6 |             20 |
+|  CLK2/O129[4]                       |                                            |                                  |                3 |             20 |
+|  CLOCK_IBUF_BUFG                    |                                            | CLK1/NEWCLOCK                    |                3 |             22 |
+| ~DISPLAY_AND_AUDIO/J_MIC3_Pin4_OBUF |                                            |                                  |                4 |             24 |
+|  CLOCK_IBUF_BUFG                    |                                            | J_MIC3_Pin1_OBUF_BUFG            |                3 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG              | mi1/peak_volume1_carry__0_n_2              | mi1/peak_volume[11]_i_1_n_0      |                4 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG              | mi1/peak_volume[11]_i_1_n_0                |                                  |                4 |             24 |
+|  ANOTHERCLOCK_BUFG                  | nus/pixel_data[15]_i_1__4_n_0              |                                  |               13 |             32 |
+|  clk3125_BUFG                       |                                            | sw7out/pixel_data[15]_i_1__2_n_0 |               14 |             32 |
+|  clk3125_BUFG                       | CSEE/pixel_data[15]_i_2__0_n_0             | OLED/pixel_data_reg[15]_1        |               14 |             32 |
+|  clk3125_BUFG                       | CSEE/pwd3                                  | CSEE/resetflag                   |               14 |             32 |
+|  clk3125_BUFG                       | EST/pixel_data[15]_i_1_n_0                 |                                  |               10 |             32 |
+| ~ANOTHERCLOCK_BUFG                  |                                            | OLED/frame_counter[16]_i_1_n_0   |                5 |             34 |
+|  CLK2/O129[3]                       |                                            |                                  |                9 |             34 |
+| ~ANOTHERCLOCK_BUFG                  | OLED/delay[0]_i_1_n_0                      |                                  |                5 |             40 |
+|  clk3125_BUFG                       | mi1/COUNT                                  | sw7out/COUNT[0]_i_1_n_0          |                6 |             44 |
+|  J_MIC3_Pin1_OBUF_BUFG              |                                            |                                  |                8 |             50 |
+|  clk3125_BUFG                       | CSEE/ns/db/dut2/seg0_reg[0][0]             |                                  |                9 |             56 |
+|  CLOCK_IBUF_BUFG                    |                                            |                                  |                9 |             58 |
+| ~ANOTHERCLOCK_BUFG                  | OLED/state                                 |                                  |                8 |             64 |
+| ~ANOTHERCLOCK_BUFG                  |                                            | OLED/spi_word[39]_i_1_n_0        |               16 |             90 |
+|  clk3125_BUFG                       |                                            |                                  |               38 |            112 |
++-------------------------------------+--------------------------------------------+----------------------------------+------------------+----------------+
+
+

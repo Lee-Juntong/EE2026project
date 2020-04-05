@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Apr  4 18:11:39 2020
+# Process ID: 892
+# Current directory: D:/NUS/EE2026/SoundDisplay
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34952 D:\NUS\EE2026\SoundDisplay\SoundDisplay.xpr
+# Log file: D:/NUS/EE2026/SoundDisplay/vivado.log
+# Journal file: D:/NUS/EE2026/SoundDisplay\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/NUS/EE2026/SoundDisplay/SoundDisplay.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Zhu Zikun/Desktop/EE2026 Project/SoundDisplay' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/XILINX/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 732.438 ; gain = 57.152
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 18:17:41 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 18:20:23 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 18:22:53 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 18:23:42 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 18:24:16 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 18:26:56 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 18:28:16 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 18:37:48 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 18:40:40 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 19:40:19 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 19:40:55 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Apr  4 19:42:10 2020] Launched synth_1...
+Run output will be captured here: D:/NUS/EE2026/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  4 19:44:16 2020...

@@ -1,0 +1,2447 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 38008
+License: Customer
+
+Current time: 	Sat Apr 04 21:03:36 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 13 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/XILINX/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/XILINX/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	23102
+User home directory: C:/Users/23102
+User working directory: D:/NUS/EE2026/EE2026_project/SoundDisplay
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/XILINX/Vivado
+HDI_APPROOT: D:/XILINX/Vivado/2018.2
+RDI_DATADIR: D:/XILINX/Vivado/2018.2/data
+RDI_BINDIR: D:/XILINX/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/23102/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/23102/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/23102/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/XILINX/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/NUS/EE2026/EE2026_project/SoundDisplay/vivado.log
+Vivado journal file location: 	D:/NUS/EE2026/EE2026_project/SoundDisplay/vivado.jou
+Engine tmp dir: 	D:/NUS/EE2026/EE2026_project/SoundDisplay/.Xil/Vivado-38008-DESKTOP-5E95DDI
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/XILINX/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/XILINX/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/XILINX/Vivado/2018.2
+XILINX_SDK: D:/XILINX/SDK/2018.2
+XILINX_VIVADO: D:/XILINX/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/XILINX/Vivado/2018.2
+
+
+GUI allocated memory:	197 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 609 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 53 MB (+52849kb) [00:00:04]
+// [Engine Memory]: 487 MB (+358898kb) [00:00:04]
+// Opening Vivado Project: D:\NUS\EE2026\EE2026_project\SoundDisplay\SoundDisplay.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/XILINX/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 57 MB (+1547kb) [00:00:06]
+// [Engine Memory]: 546 MB (+36382kb) [00:00:06]
+// [GUI Memory]: 80 MB (+20767kb) [00:00:07]
+// [Engine Memory]: 592 MB (+19961kb) [00:00:07]
+// [GUI Memory]: 86 MB (+2055kb) [00:00:07]
+// Project name: SoundDisplay; location: D:/NUS/EE2026/EE2026_project/SoundDisplay; part: xc7a35tcpg236-1
+// [GUI Memory]: 90 MB (+208kb) [00:00:08]
+dismissDialog("Open Project"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 616 MB. GUI used memory: 41 MB. Current time: 4/4/20 9:03:37 PM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v), CLK1 : clk20k (clk20k.v)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v), EST : EyeSight_test (EyeSight_test.v)]", 15, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v), EST : EyeSight_test (EyeSight_test.v), singlePulseButton2 : Button (Button.v)]", 17, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v), EST : EyeSight_test (EyeSight_test.v)]", 15); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v), CSEE : Dr_W_And_C (Dr_W_And_C.v)]", 16, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v), CSEE : Dr_W_And_C (Dr_W_And_C.v), singlePulseButton2 : Button (Button.v)]", 19, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 24 seconds
+selectCodeEditor("Dr_W_And_C.v", 135, 251); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Dr_W_And_C.v", 409, 267); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 627 MB (+5862kb) [00:01:19]
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 42 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v), CSEE : Dr_W_And_C (Dr_W_And_C.v)]", 16); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v), nus : NTU (NTU.v)]", 14, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v), nus : NTU (NTU.v)]", 14, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 41 seconds
+selectCodeEditor("NTU.v", 212, 278); // ce (w, ck)
+// Elapsed time: 49 seconds
+selectCodeEditor("NTU.v", 203, 292); // ce (w, ck)
+selectCodeEditor("NTU.v", 118, 201); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("NTU.v", 407, 350); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_Student.v", 1); // k (j, ck)
+selectCodeEditor("Top_Student.v", 493, 147); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectCodeEditor("Top_Student.v", 21, 182); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectCodeEditor("Top_Student.v", 377, 136); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Sat Apr  4 21:07:55 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 652 MB. GUI used memory: 45 MB. Current time: 4/4/20 9:07:57 PM CST
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 458ms to process. Increasing delay to 3000 ms.
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 84 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// [Engine Memory]: 660 MB (+1140kb) [00:05:57]
+// Tcl Message: open_hw 
+// 'Q' command handler elapsed time: 3 seconds
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 852.109 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// [Engine Memory]: 1,314 MB (+650983kb) [00:06:06]
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,316 MB. GUI used memory: 51 MB. Current time: 4/4/20 9:09:37 PM CST
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (bB)
+dismissDialog("Program Device"); // bB (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (bB)
+dismissDialog("Program Device"); // bB (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// f (ck): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (ck)
+selectCheckBox(PAResourceItoN.LaunchPanel_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g (a, f): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Apr  4 21:09:46 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 98 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+dismissDialog("Program Device"); // bB (ck)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// n (ck): Close Hardware Target: addNotify
+// Elapsed time: 42 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NTU.v", 3); // k (j, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// [GUI Memory]: 98 MB (+3176kb) [00:09:34]
+// Elapsed time: 137 seconds
+selectCodeEditor("NTU.v", 244, 413); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("NTU.v", 93, 271); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("NTU.v", 95, 362); // ce (w, ck)
+// Elapsed time: 74 seconds
+selectCodeEditor("NTU.v", 51, 324); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  4 21:16:50 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log [Sat Apr  4 21:16:50 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+// Elapsed time: 58 seconds
+selectCodeEditor("NTU.v", 286, 381); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 240 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+// PAResourceOtoP.PAViews_HARDWARE: Hardware: close view
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// Elapsed time: 82 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// [GUI Memory]: 103 MB (+190kb) [00:19:44]
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NTU.v", 4); // k (j, ck)
+selectCodeEditor("NTU.v", 222, 349); // ce (w, ck)
+typeControlKey((HResource) null, "NTU.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "NTU.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "NTU.v", 'c'); // ce (w, ck)
+selectCodeEditor("NTU.v", 363, 352); // ce (w, ck)
+// Elapsed time: 46 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Dr_W_And_C.v", 3); // k (j, ck)
+// Elapsed time: 77 seconds
+selectCodeEditor("Dr_W_And_C.v", 709, 201); // ce (w, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File]", 20); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB4.mem]", 66, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB4.mem]", 66, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NTU.v", 4); // k (j, ck)
+selectCodeEditor("NTU.v", 597, 205); // ce (w, ck)
+// Elapsed time: 71 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,340 MB. GUI used memory: 53 MB. Current time: 4/4/20 9:26:52 PM CST
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// 'cv' command handler elapsed time: 5 seconds
+selectButton("PAResourceQtoS.RunBitgen_BITSTREAM_GENERATION_HAS_ALREADY_COMPLETED_Cancel", "Cancel"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NTU.v", 3); // k (j, ck)
+selectCodeEditor("NTU.v", 259, 258); // ce (w, ck)
+selectCodeEditor("NTU.v", 291, 280); // ce (w, ck)
+selectCodeEditor("NTU.v", 251, 294); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("NTU.v", 160, 147); // ce (w, ck)
+// PAResourceOtoP.PAViews_HARDWARE: Hardware: close view
+// RDIResource.RDIViews_PROPERTIES: Hardware Device Properties: close view
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 68); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 68); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, quietPlz.mem]", 60, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, quietPlz.mem]", 60, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, shoutDone.mem]", 61, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, shoutDone.mem]", 61, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, quietPlz.mem]", 60, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, quietPlz.mem]", 60, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, shoutDone.mem]", 61, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, shoutDone.mem]", 61, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, quietPlz.mem]", 60, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, quietPlz.mem]", 60, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spongeBOB4.mem", 5); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NTU.v", 4); // k (j, ck)
+selectCodeEditor("NTU.v", 247, 121); // ce (w, ck)
+selectCodeEditor("NTU.v", 249, 153); // ce (w, ck)
+selectCodeEditor("NTU.v", 226, 136); // ce (w, ck)
+selectCodeEditor("NTU.v", 270, 137); // ce (w, ck)
+// Elapsed time: 61 seconds
+selectCodeEditor("NTU.v", 59, 281); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectCodeEditor("NTU.v", 208, 208); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  4 21:30:02 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log [Sat Apr  4 21:30:02 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+// [GUI Memory]: 109 MB (+921kb) [00:27:31]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 131 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+// aI (ck): Feedback Request: addNotify
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+dismissDialog("Feedback Request"); // aI (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NTU.v", 3); // k (j, ck)
+selectCodeEditor("NTU.v", 282, 396); // ce (w, ck)
+selectCodeEditor("NTU.v", 101, 371); // ce (w, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// n (ck): Close Hardware Target: addNotify
+dismissDialog("Close Hardware Target"); // n (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 58 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 220, 49); // dn (ae, ck)
+// Elapsed time: 339 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "quietPlz.mem", 5); // k (j, ck)
+selectCodeEditor("quietPlz.mem", 282, 33); // ce (w, ck)
+typeControlKey((HResource) null, "quietPlz.mem", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_Student.v", 0); // k (j, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton("PAResourceQtoS.RunBitgen_BITSTREAM_GENERATION_HAS_ALREADY_COMPLETED_OK", "OK"); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_MODIFY
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  4 21:39:39 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 51 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+// aI (ck): Feedback Request: addNotify
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+dismissDialog("Feedback Request"); // aI (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+// [GUI Memory]: 118 MB (+3701kb) [00:37:07]
+selectCodeEditor("Top_Student.v", 308, 61); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NTU.v", 3); // k (j, ck)
+selectCodeEditor("NTU.v", 271, 303); // ce (w, ck)
+selectCodeEditor("NTU.v", 275, 311); // ce (w, ck)
+selectCodeEditor("NTU.v", 88, 381); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Apr  4 21:40:50 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log [Sat Apr  4 21:40:50 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+selectCodeEditor("NTU.v", 259, 386); // ce (w, ck)
+selectCodeEditor("NTU.v", 63, 378); // ce (w, ck)
+selectCodeEditor("NTU.v", 79, 389); // ce (w, ck)
+selectCodeEditor("NTU.v", 62, 387); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// [GUI Memory]: 125 MB (+978kb) [00:40:30]
+// aI (ck): Feedback Request: addNotify
+// Elapsed time: 862 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+dismissDialog("Feedback Request"); // aI (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,351 MB. GUI used memory: 58 MB. Current time: 4/4/20 9:56:52 PM CST
+// Elapsed time: 747 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB1.mem]", 63, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB1.mem]", 63, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("spongeBOB1.mem", 147, 125); // ce (w, ck)
+typeControlKey((HResource) null, "spongeBOB1.mem", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB2.mem]", 64, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB2.mem]", 64, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("spongeBOB2.mem", 222, 151); // ce (w, ck)
+typeControlKey((HResource) null, "spongeBOB2.mem", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+selectCodeEditor("spongeBOB2.mem", 80, 177); // ce (w, ck)
+typeControlKey((HResource) null, "spongeBOB2.mem", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+selectCodeEditor("spongeBOB2.mem", 168, 175); // ce (w, ck)
+typeControlKey((HResource) null, "spongeBOB2.mem", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB3.mem]", 65, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB3.mem]", 65, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB3.mem]", 65, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB3.mem]", 65, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("spongeBOB3.mem", 228, 185); // ce (w, ck)
+typeControlKey((HResource) null, "spongeBOB3.mem", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB4.mem]", 66, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB4.mem]", 66, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB4.mem]", 66, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, spongeBOB4.mem]", 66, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("spongeBOB4.mem", 263, 164); // ce (w, ck)
+typeControlKey((HResource) null, "spongeBOB4.mem", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, Chua.mem]", 33, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, Chua.mem]", 33, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("Chua.mem", 199, 111); // ce (w, ck)
+typeControlKey((HResource) null, "Chua.mem", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, Wong.mem]", 49, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, Wong.mem]", 49, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("Wong.mem", 260, 168); // ce (w, ck)
+typeControlKey((HResource) null, "Wong.mem", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, NUS.mem]", 43, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, NUS.mem]", 43, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("NUS.mem", 255, 201); // ce (w, ck)
+typeControlKey((HResource) null, "NUS.mem", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton("PAResourceQtoS.RunBitgen_BITSTREAM_GENERATION_HAS_ALREADY_COMPLETED_OK", "OK"); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_MODIFY
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  4 22:10:31 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_Student.v", 1); // k (j, ck)
+selectCodeEditor("Top_Student.v", 476, 146); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 540, 140); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 24 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+// aI (ck): Feedback Request: addNotify
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectButton(PAResourceTtoZ.TouchpointSurveyDialog_NO, "No"); // a (aI)
+dismissDialog("Feedback Request"); // aI (ck)
+selectButton("PAResourceTtoZ.TouchpointSurveyDialog_USE_TOOLS_OPTIONS_WINDOWS_BEHAVIOR_OK", "OK"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bx (ck):  Auto Connect : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+dismissDialog("Confirm Close"); // A (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 28 seconds
+selectCodeEditor("Top_Student.v", 501, 159); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectCodeEditor("Top_Student.v", 212, 139); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 508, 143); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Circle_And_Mr_XiaoChuan (Circle.v)]", 18, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Circle_And_Mr_XiaoChuan (Circle.v)]", 18, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("Circle.v", 183, 294); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("Circle.v", 68, 411); // ce (w, ck)
+selectCodeEditor("Circle.v", 234, 406); // ce (w, ck)
+selectCodeEditor("Circle.v", 217, 405); // ce (w, ck)
+selectCodeEditor("Circle.v", 236, 407); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aj (ck): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// A (ck): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  4 22:13:47 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log [Sat Apr  4 22:13:47 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+// Elapsed time: 17 seconds
+selectCodeEditor("Circle.v", 220, 239); // ce (w, ck)
+selectCodeEditor("Circle.v", 222, 238); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 61 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, spongeBOB (spongeBOB.v)]", 19, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, spongeBOB (spongeBOB.v)]", 19, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 16 seconds
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): TRUE
+selectCodeEditor("spongeBOB.v", 56, 353); // ce (w, ck)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): FALSE
+selectCodeEditor("spongeBOB.v", 298, 256); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("spongeBOB.v", 320, 275); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("spongeBOB.v", 22, 204); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 22, 242); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 42, 291); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 160, 273); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): TRUE
+selectCodeEditor("spongeBOB.v", 102, 179); // ce (w, ck)
+// [GUI Memory]: 132 MB (+1473kb) [01:12:41]
+// ah (ck): Bitstream Generation Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectCodeEditor("spongeBOB.v", 325, 329); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1562.098 ; gain = 0.000 
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// bx (ck):  Auto Connect : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  4 22:17:14 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log [Sat Apr  4 22:17:14 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+// [GUI Memory]: 141 MB (+2742kb) [01:14:42]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 100 seconds
+selectCodeEditor("Top_Student.v", 400, 295); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 314, 292); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 427, 315); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 334, 314); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 459, 313); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NTU.v", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spongeBOB2.mem", 8); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_Student.v", 0); // k (j, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_GRAPH_GENERATED
+// ah (ck): Bitstream Generation Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("Top_Student.v", 485, 425); // ce (w, ck)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectCodeEditor("Top_Student.v", 399, 253); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 610, 345); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 612, 344); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectCodeEditor("Top_Student.v", 498, 242); // ce (w, ck)
+// [GUI Memory]: 150 MB (+1636kb) [01:16:45]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "EyeSight_test.v", 1); // k (j, ck)
+// Elapsed time: 29 seconds
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): TRUE
+selectCodeEditor("EyeSight_test.v", 122, 216); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 121, 392); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 133, 335); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 158, 280); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 152, 276); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 154, 276); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 144, 338); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 162, 349); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 351, 236); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 353, 239); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 364, 259); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 365, 246); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 365, 223); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 395, 217); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 365, 184); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 374, 199); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 371, 180); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 371, 169); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 405, 163); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 414, 211); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 408, 217); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 367, 182); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 378, 165); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 379, 194); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 406, 165); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 340, 181); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 349, 197); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 347, 165); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 383, 165); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 330, 179); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 340, 169); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 340, 200); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 369, 166); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 373, 215); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 373, 215); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 359, 213); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 376, 181); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 14 seconds
+selectCodeEditor("EyeSight_test.v", 47, 290); // ce (w, ck)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): FALSE
+selectCodeEditor("EyeSight_test.v", 392, 129); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("EyeSight_test.v", 71, 271); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("EyeSight_test.v", 52, 309); // ce (w, ck)
+// Elapsed time: 35 seconds
+selectCodeEditor("EyeSight_test.v", 200, 119); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 112, 125); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 179, 116); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 65, 95); // ce (w, ck)
+// Elapsed time: 142 seconds
+selectCodeEditor("EyeSight_test.v", 98, 97); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,351 MB. GUI used memory: 71 MB. Current time: 4/4/20 10:26:53 PM CST
+// Elapsed time: 61 seconds
+selectCodeEditor("EyeSight_test.v", 392, 205); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 50, 196); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 10, 200); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 34, 185); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 126, 143); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 155, 199); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 108, 165); // ce (w, ck)
+// Elapsed time: 29 seconds
+selectCodeEditor("EyeSight_test.v", 388, 241); // ce (w, ck)
+// Elapsed time: 27 seconds
+selectCodeEditor("EyeSight_test.v", 153, 187); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("EyeSight_test.v", 155, 182); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 149, 159); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 206, 234); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("EyeSight_test.v", 243, 124); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 158, 267); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 274, 322); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 185, 270); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("EyeSight_test.v", 233, 294); // ce (w, ck)
+// Elapsed time: 38 seconds
+selectCodeEditor("EyeSight_test.v", 161, 349); // ce (w, ck)
+typeControlKey((HResource) null, "EyeSight_test.v", 'c'); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 94, 300); // ce (w, ck)
+typeControlKey((HResource) null, "EyeSight_test.v", 'v'); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 280, 293); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 174, 293); // ce (w, ck)
+// Elapsed time: 42 seconds
+selectCodeEditor("EyeSight_test.v", 163, 237); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 32 seconds
+selectCodeEditor("EyeSight_test.v", 170, 313); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("EyeSight_test.v", 306, 314); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 173, 309); // ce (w, ck)
+// Elapsed time: 33 seconds
+selectCodeEditor("EyeSight_test.v", 180, 351); // ce (w, ck)
+// Elapsed time: 109 seconds
+selectCodeEditor("EyeSight_test.v", 92, 350); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 95, 349); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 45, 308); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 255, 242); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_Student.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "EyeSight_test.v", 1); // k (j, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  4 22:34:47 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log [Sat Apr  4 22:34:47 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+// Elapsed time: 190 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Dr_W_And_C.v", 2); // k (j, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spongeBOB.v", 9); // k (j, ck)
+selectCodeEditor("spongeBOB.v", 107, 312); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+selectCodeEditor("spongeBOB.v", 88, 316); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 132, 333); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 58, 353); // ce (w, ck)
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("spongeBOB.v", 48, 374); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 56, 350); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 339, 350); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("spongeBOB.v", 62, 331); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 334, 335); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// n (ck): Close Hardware Target: addNotify
+// Elapsed time: 67 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "EyeSight_test.v", 1); // k (j, ck)
+selectCodeEditor("EyeSight_test.v", 400, 266); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 252, 291); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 297, 291); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 146, 291); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("EyeSight_test.v", 414, 262); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  4 22:41:13 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log [Sat Apr  4 22:41:13 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+// Elapsed time: 130 seconds
+selectCodeEditor("EyeSight_test.v", 353, 409); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 155 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.  Targets(s) ", jsn-Basys3-210183756765A" may be locked by another hw_server. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.  Targets(s) ", jsn-Basys3-210183756765A" may be locked by another hw_server.  
+// a (ck): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// n (ck): Close Hardware Target: addNotify
+// Elapsed time: 53 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (ck)
+selectCodeEditor("EyeSight_test.v", 255, 224); // ce (w, ck)
+selectCodeEditor("EyeSight_test.v", 199, 234); // ce (w, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 80 seconds
+selectCodeEditor("EyeSight_test.v", 599, 234); // ce (w, ck)
+// Elapsed time: 26 seconds
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectCodeEditor("EyeSight_test.v", 152, 239); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("EyeSight_test.v", 266, 249); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_Student.v", 0); // k (j, ck)
+selectCodeEditor("Top_Student.v", 634, 290); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectCodeEditor("Top_Student.v", 32, 315); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectCodeEditor("Top_Student.v", 426, 335); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectCodeEditor("Top_Student.v", 317, 241); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  4 22:50:13 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log [Sat Apr  4 22:50:13 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spongeBOB.v", 9); // k (j, ck)
+selectCodeEditor("spongeBOB.v", 209, 275); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 240, 306); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 281, 241); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 274, 250); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 285, 217); // ce (w, ck)
+// Elapsed time: 28 seconds
+selectCodeEditor("spongeBOB.v", 253, 264); // ce (w, ck)
+// Elapsed time: 51 seconds
+selectCodeEditor("spongeBOB.v", 62, 106); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 163, 199); // ce (w, ck)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): FALSE
+selectCodeEditor("spongeBOB.v", 168, 219); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 255, 217); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 277, 188); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 276, 195); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 30 seconds
+selectCodeEditor("spongeBOB.v", 94, 141); // ce (w, ck)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): TRUE
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): FALSE
+selectCodeEditor("spongeBOB.v", 306, 138); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 43 seconds
+selectCodeEditor("spongeBOB.v", 203, 244); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 69 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.  Targets(s) ", jsn-Basys3-210183756765A" may be locked by another hw_server. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.  Targets(s) ", jsn-Basys3-210183756765A" may be locked by another hw_server.  
+// a (ck): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// n (ck): Close Hardware Target: addNotify
+// Elapsed time: 31 seconds
+dismissDialog("Close Hardware Target"); // n (ck)
+selectCodeEditor("spongeBOB.v", 460, 243); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 455, 249); // ce (w, ck)
+typeControlKey((HResource) null, "spongeBOB.v", 'v'); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 624, 252); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 52 seconds
+typeControlKey((HResource) null, "spongeBOB.v", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  4 22:56:33 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log [Sat Apr  4 22:56:33 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,351 MB. GUI used memory: 70 MB. Current time: 4/4/20 10:56:53 PM CST
+// Elapsed time: 122 seconds
+selectCodeEditor("spongeBOB.v", 117, 391); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 132, 373); // ce (w, ck)
+selectCodeEditor("spongeBOB.v", 546, 345); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NTU.v", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Dr_W_And_C.v", 2); // k (j, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("Dr_W_And_C.v", 128, 175); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 88 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.  Targets(s) ", jsn-Basys3-210183756765A" may be locked by another hw_server. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.  Targets(s) ", jsn-Basys3-210183756765A" may be locked by another hw_server.  
+// a (ck): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bx (ck):  Auto Connect : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// n (ck): Close Hardware Target: addNotify
+// Elapsed time: 30 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_Student.v", 0); // k (j, ck)
+selectCodeEditor("Top_Student.v", 517, 332); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectCodeEditor("Top_Student.v", 823, 315); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectCodeEditor("Top_Student.v", 352, 297); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Dr_W_And_C.v", 2); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 17 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dp"); // l (aQ, ck)
+selectCodeEditor("Dr_W_And_C.v", 100, 334); // ce (w, ck)
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  4 23:02:48 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log [Sat Apr  4 23:02:48 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 25 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages]", 1); // ah (O, ck)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages]", 1); // ah (O, ck)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183756765A. ]", 2); // ah (O, ck)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183756765A. ]", 2); // ah (O, ck)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Labtoolstcl 44-494] There is no active target available for server at localhost..  Targets(s) , jsn-Basys3-210183756765A may be locked by another hw_server.. ]", 3); // ah (O, ck)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Labtoolstcl 44-494] There is no active target available for server at localhost..  Targets(s) , jsn-Basys3-210183756765A may be locked by another hw_server.. ]", 3); // ah (O, ck)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+// Elapsed time: 14 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "char"); // l (aQ, ck)
+selectCodeEditor("Dr_W_And_C.v", 170, 10); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 170, 18); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 374, 50); // ce (w, ck)
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (aI, ck)
+selectCodeEditor("Dr_W_And_C.v", 88, 29); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 153, 32); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Sat Apr  4 23:04:00 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 25 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+// Elapsed time: 224 seconds
+selectCodeEditor("Dr_W_And_C.v", 96, 369); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectCodeEditor("Dr_W_And_C.v", 149, 368); // ce (w, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// aj (ck): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Apr  4 23:08:35 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectCodeEditor("Dr_W_And_C.v", 150, 347); // ce (w, ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectCodeEditor("Dr_W_And_C.v", 108, 457); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+selectCodeEditor("Dr_W_And_C.v", 110, 315); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Dr_W_And_C.v", 176, 324); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Sat Apr  4 23:09:37 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+selectCodeEditor("Dr_W_And_C.v", 413, 348); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 60, 289); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 439, 229); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Dr_W_And_C.v", 333, 314); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Dr_W_And_C.v", 337, 335); // ce (w, ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Sat Apr  4 23:10:04 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 23 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 121, 45); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 186, 47); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 603, 89); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 603, 88); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 606, 87); // n (q, ck)
+typeControlKey(PAResourceItoN.LogMonitor_MONITOR, "Monitor", 'c'); // n (q, ck)
+// Elapsed time: 33 seconds
+selectCodeEditor("Dr_W_And_C.v", 844, 84); // ce (w, ck)
+// Elapsed time: 15 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "char"); // l (aQ, ck)
+selectCodeEditor("Dr_W_And_C.v", 154, 26); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 144, 34); // ce (w, ck)
+typeControlKey((HResource) null, "Dr_W_And_C.v", 'c'); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 28, 44); // ce (w, ck)
+typeControlKey((HResource) null, "Dr_W_And_C.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Dr_W_And_C.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Dr_W_And_C.v", 'v'); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 222, 119); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 197, 271); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): TRUE
+selectCodeEditor("Dr_W_And_C.v", 132, 159); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 179, 168); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 137, 158); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 208, 302); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Dr_W_And_C.v", 274, 157); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 283, 162); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 131, 351); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 134, 351); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 140, 354); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 140, 354); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 275, 353); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 284, 223); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 240, 164); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 241, 352); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 276, 351); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 274, 346); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 297, 405); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 294, 407); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 13, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Sat Apr  4 23:13:43 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 24 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+// Elapsed time: 286 seconds
+selectCodeEditor("Dr_W_And_C.v", 674, 265); // ce (w, ck)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): FALSE
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (aI, ck)
+selectCodeEditor("Dr_W_And_C.v", 794, 220); // ce (w, ck)
+typeControlKey((HResource) null, "Dr_W_And_C.v", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 13, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Sat Apr  4 23:19:07 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// Elapsed time: 82 seconds
+selectCodeEditor("Dr_W_And_C.v", 167, 307); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 31 seconds
+selectCodeEditor("Dr_W_And_C.v", 23, 294); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 23, 103); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (ck)
+selectCodeEditor("Dr_W_And_C.v", 149, 340); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 151, 353); // ce (w, ck)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): TRUE
+selectCodeEditor("Dr_W_And_C.v", 389, 347); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 235, 65); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 294, 108); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 402, 60); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 106, 66); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 123, 58); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 123, 67); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 123, 67); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 127, 68); // ce (w, ck)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): FALSE
+// Elapsed time: 15 seconds
+selectCodeEditor("Dr_W_And_C.v", 124, 83); // ce (w, ck)
+// Elapsed time: 24 seconds
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): TRUE
+selectCodeEditor("Dr_W_And_C.v", 107, 260); // ce (w, ck)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): FALSE
+selectCodeEditor("Dr_W_And_C.v", 107, 254); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("Dr_W_And_C.v", 158, 254); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 106, 278); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 108, 293); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Dr_W_And_C.v", 108, 313); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 118, 310); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 661, 283); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectCodeEditor("Dr_W_And_C.v", 199, 277); // ce (w, ck)
+selectCodeEditor("Dr_W_And_C.v", 22, 294); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_Student.v", 0); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dp"); // l (aQ, ck)
+selectCodeEditor("Top_Student.v", 720, 313); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 746, 314); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 730, 311); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 648, 270); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 14, 50); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 18, 28); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 122, 65); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 17, 450); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 319, 128); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File]", 21); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 22, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 23, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 24, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 24, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 24, false, false, false, false, false, true); // B (D, ck) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dp"); // l (aQ, ck)
+selectCodeEditor("Basys3_Master.xdc", 357, 345); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectCodeEditor("Basys3_Master.xdc", 450, 161); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "EyeSight_test.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_Student.v", 1); // k (j, ck)
+selectCodeEditor("Top_Student.v", 435, 81); // ce (w, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: [Sat Apr  4 23:25:21 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log [Sat Apr  4 23:25:21 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 13, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Sat Apr  4 23:25:45 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] dp is not declared [D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Dr_W_And_C.v:104]. ]", 5, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\NUS\EE2026\EE2026_project\SoundDisplay\SoundDisplay.srcs\sources_1\new\Dr_W_And_C.v;-;;-;16;-;line;-;104;-;;-;16;-;"); // ah (O, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 13, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Sat Apr  4 23:26:13 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,351 MB. GUI used memory: 70 MB. Current time: 4/4/20 11:26:53 PM CST
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 124 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// f (ck): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (ck)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  4 23:28:28 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 119 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton("PAResourceQtoS.RunBitgen_BITSTREAM_GENERATION_HAS_ALREADY_COMPLETED_Cancel", "Cancel"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 21, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// n (ck): Close Hardware Target: addNotify
+// Elapsed time: 35 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "EyeSight_test.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Dr_W_And_C.v", 2); // k (j, ck)
+selectCodeEditor("Dr_W_And_C.v", 292, 130); // ce (w, ck)
+// Elapsed time: 90 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "resetflag"); // l (aQ, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_Student.v", 0); // k (j, ck)
+selectCodeEditor("Top_Student.v", 274, 207); // ce (w, ck)
+selectCodeEditor("Top_Student.v", 320, 204); // ce (w, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton("PAResourceQtoS.RunBitgen_BITSTREAM_GENERATION_HAS_ALREADY_COMPLETED_OK", "OK"); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+selectCodeEditor("Top_Student.v", 820, 261); // ce (w, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// n (ck): Close Hardware Target: addNotify
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (ck)
+selectCodeEditor("Top_Student.v", 219, 280); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 13, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Run Synthesis"); // A (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  4 23:33:57 2020] Launched synth_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/synth_1/runme.log [Sat Apr  4 23:33:57 2020] Launched impl_1... Run output will be captured here: D:/NUS/EE2026/EE2026_project/SoundDisplay/SoundDisplay.runs/impl_1/runme.log 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183756765A 
+// n (ck): Close Hardware Target: addNotify
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 59 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (ck)
